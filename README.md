@@ -10,12 +10,13 @@ In quadratic voting, each vote is squared so 2 votes counts as a score of 4 vote
 
 ## Features
 
-- Only the ballot owner can add addresses to the ballot but can not add itself
-- Only the ballot owner can create proposals (voting options)
+- Only the ballot owner can add addresses to the ballot but can not add itself.
+- Only the ballot owner can create proposals (voting options).
 - Only the ballot owner can start and end the vote. 
-- The voters can only cast votes
-- There must be at least one voter and one created proposal in order for the ballot owner to start the vote
-- The ballot owner can not end the vote until the duration threshold has passed (in minutes)
+- The voters can only cast votes.
+- There must be at least one voter and one created proposal in order for the ballot owner to start the vote.
+- The ballot owner can not end the vote until the duration threshold has passed (in minutes).
+- The voters have a score to vote for different proposals. The voters can only vote if they have a score greater than 0. After casting a vote, it can not be updated.
 
 
 ## Tools
